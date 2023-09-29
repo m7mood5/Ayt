@@ -15,47 +15,47 @@ export default function ImgList() {
 
 const itemData = [
     {
-        img: '/public/2.jpg',
+        img: '/assets/2.jpg',
         id: 1
     },
     {
-        img: '/public/6.jpg',
+        img: '/assets/6.jpg',
         id: 2
     },
     {
-        img: '/public/5.jpg',
+        img: '/assets/5.jpg',
         id: 4
     },
     {
-        img: '/public/3.jpg',
+        img: '/assets/3.jpg',
         id: 3
     },
  
 
     {
-        img: '/public/4.jpg',
+        img: '/assets/4.jpg',
         id: 11
 
     },
     
 
     {
-        img: '/public/5.jpg',
+        img: '/assets/5.jpg',
         id: 6
     },
     
     {
-        img: '/public/2.jpg',
+        img: '/assets/2.jpg',
         id: 7
     },
 
     {
-        img: '/public/1.jpg',
+        img: '/assets/1.jpg',
         id: 9
     },
 
     {
-        img: '/public/8.jpg',
+        img: '/assets/8.jpg',
         id: 20
     },
 ];

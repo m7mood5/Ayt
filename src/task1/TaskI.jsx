@@ -35,7 +35,7 @@ const TaskI = () => {
                   <NCon>
                     <Logo>
                       <NavLink to="/">
-                        <Photo src="/public/Vector.png" />
+                        <Photo src="/assets/Vector.png" />
                         <Typography
                           variant="h4"
                           noWrap
