@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #E9854D;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button,
+input {
+  border: none;
+  outline: none;
+}
+/* responsive start */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small screen */
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+/* medium screen */
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+/* large screen */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+/* x-large screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+/* xx-large screen */
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+/* responsive end */
+
+::selection {
+  background-color: var(--main-color);
+  color: #080808;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* slider overlay */
+.main-slider-box:hover .overlay {
+  top: 0;
+  transition: all ease 0.3s;
+}
